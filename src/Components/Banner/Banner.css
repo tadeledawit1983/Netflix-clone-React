@@ -1,0 +1,43 @@
+.banner {
+  color: #fff;
+  object-fit: contain;
+  height: 450px;
+  padding-top: 140px;
+}
+.banner_description {
+  width: 45rem;
+  line-height: 1.3em;
+  padding-top: 1rem;
+  max-width: 350px;
+  height: 80px;
+}
+.banner_title {
+  padding: 0.5rem 4rem;
+}
+.btn_banner {
+  cursor: pointer;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 0.5rem 2rem;
+  font-weight: 500;
+  background-color: rgba(51, 51, 51, 0.5);
+}
+.btn {
+  display: flex;
+  gap: 1rem;
+}
+.btn_banner:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+.shadow {
+  height: 7.4rem;
+  width: 100%;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.61),
+    #111
+  );
+}
